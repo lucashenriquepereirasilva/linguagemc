@@ -72,29 +72,23 @@ void reajuste(float salarío){
         printf("O salario antigo é %f e foi reajustado em 20%. o valor de aumento é %f\n",salarío,valor_aumento,novo_salario);
         novo_salario;
     }
-    }
-    // else if(salarío > 280 && salario <== 700){
+    
+    // else if(salarío > 280 & salario <== 700)
     else if(salarío <= 700){
-        float valor_aumento;
-    float novo_salario;
-    if(salarío <= 280){
         valor_aumento = salarío * ( 15.0/ 100);
         novo_salario = salarío + valor_aumento;
         printf("O salario antigo é %f e foi reajustado em 20%. o valor de aumento é %f\n",salarío,valor_aumento,novo_salario);
         novo_salario;
+    
     }
-    }
+    
     else if(salarío <= 1500){
-        float valor_aumento;
-    float novo_salario;
-    if(salarío <= 280){
         valor_aumento = salarío * (10.0 / 100);
         novo_salario = salarío + valor_aumento;
         printf("O salario antigo é %f e foi reajustado em 20%. o valor de aumento é %f\n",salarío,valor_aumento,novo_salario);
         novo_salario;
     }
-    }
-  {
+    
       else{
         valor_aumento = salarío * (5.0 / 100);
         novo_salario = salarío + valor_aumento;
